@@ -1,7 +1,6 @@
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import FriendList from 'components/FriendList/FriendList';
-import Consol from './utils/Console';
 import user from 'json/user.json';
 import data from 'json/data.json';
 import friends from 'json/friends.json';
