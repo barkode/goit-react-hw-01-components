@@ -1,0 +1,10 @@
+thead {
+  background-color: blue;
+  height: 50px;
+}
+
+table {
+  background-color: beige;
+  width: 800px;
+  text-align: center;
+}

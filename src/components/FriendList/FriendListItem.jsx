@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-function FriendListItem(friend) {
+export const FriendListItem = friend => {
   const { avatar, name, isOnline, id } = friend;
   return (
     <li className="item" key={id}>
@@ -9,9 +9,7 @@ function FriendListItem(friend) {
       <p className="name">{name}</p>
     </li>
   );
-}
-
-export default FriendListItem;
+};
 
 FriendListItem.propTypes = {
   isOnline: PropTypes.bool.isRequired,
