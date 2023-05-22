@@ -1,0 +1,56 @@
+.statistics {
+  margin: 0 auto;
+  background-color: azure;
+  padding-top: 100px;
+}
+
+.wrapper {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.stat-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  width: 100%;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 48px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.label {
+  font-size: 16px;
+  font-style: italic;
+}
+.percentage {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.docx {
+  background-color: aquamarine;
+}
+
+.pdf {
+  background-color: brown;
+}
+
+.mp3 {
+  background-color: cadetblue;
+}
+
+.psd {
+  background-color: blueviolet;
+}
