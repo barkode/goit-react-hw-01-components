@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 
-export const TransactionHistoryItem = ({ id, type, amount, currency }) => {
+export const TransactionHistoryItem = item => {
   return (
-    <tr key={id}>
-      <td>{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
+    <tr key={item.id}>
+      <td>{item.type}</td>
+      <td>{item.amount}</td>
+      <td>{item.currency}</td>
     </tr>
   );
 };
