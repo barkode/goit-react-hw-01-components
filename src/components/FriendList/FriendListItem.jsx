@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 import css from './FriendList.module.css';
 
 export const FriendListItem = friend => {
-  const { avatar, name, isOnline, id } = friend;
+  const { avatar, name, isOnline } = friend;
   return (
-    <li className={css.item} key={id}>
+    <li className={css.item}>
       <span
         className={
           isOnline
