@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './FriendList.module.css';
 
-export const FriendListItem = friend => {
-  const { avatar, name, isOnline } = friend;
+export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <li className={css.item}>
       <span
